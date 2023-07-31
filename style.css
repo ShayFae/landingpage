@@ -84,7 +84,6 @@ nav {
 #sectionTwo {
   align-items: center;  
   padding-top: 10px;
-
 }
 
 #sectionTwo div{
@@ -108,7 +107,6 @@ nav {
 
 ul {
   display: inline-flex;
-  /* flex-direction: row;  */
   border-radius: 10%;
   border-color: #3882F6;
   background-color: white;
@@ -121,6 +119,15 @@ li {
   padding-right: 15px;
 }
 
+#sectionThree {
+  align-items: center;
+  background-color: #E5E7EB;
+  font-size: 18px;
+  padding: 200px;
+}
+
 footer {
   background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 50px;
 }
