@@ -8,13 +8,11 @@ body {
   align-items: center;
   justify-content: space-around;
   background-color: #1F2937;
-
 }
 
-#sectionZero {
+/* #sectionZero {
   background-color: #1F2937;
-
-}
+} */
 
 header {
   display: flex;
@@ -71,7 +69,6 @@ nav {
   border-radius: 20%;
   border-style: hidden;
   font-size: 18px;
-
 }
 
 #sectionOne img {
@@ -83,7 +80,14 @@ nav {
 }
 
 #sectionTwo {
-  align-items: center;
+  align-items: center;  
+}
+
+#sectionTwo div{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 #sectionTwo img {
@@ -100,14 +104,15 @@ nav {
 
 ul {
   display: inline-flex;
-  flex-direction: row; 
+  /* flex-direction: row;  */
   border-radius: 10%;
   border-color: #3882F6;
-  background-color: white; 
+  background-color: white;
 }
 
 li {
   display: block;
+  width: 200px; 
 }
 
 footer {
