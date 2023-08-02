@@ -125,6 +125,19 @@ li {
   font-size: 18px;
   padding: 200px;
 }
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sectionFour div {
+  display: flex;
+  background-color: #3882F6;
+  width: 50%;
+  margin: 50px;
+  border-radius: 8px;
+  padding: 20px;
+}
 
 footer {
   background-color: #1F2937;
